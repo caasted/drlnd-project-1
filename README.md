@@ -43,4 +43,5 @@ This project is from the Udacity DRLND repository and requires all of the depend
 The entry point for this application is the Jupyter Notebook `Navigation.ipynb`.
  1. Launch a jupyter notebook service in `drlnd-project-1` and open `Navigation.ipynb`.
  2. Edit cell #2 (`env = UnityEnvironment(file_name="Banana_Linux/Banana.x86_64")`) based on the instructions above it to match your version of the Unity Environment.
- 3. Click `Cell` --> `Run All` to execute the code and train a new agent.
+ 3. To execute all of the code and train a new agent, click `Cell` --> `Run All`.
+ 4. To view the pre-trained agent, execute all of the cells except cell 10, which starts with `scores = dqn()`.
