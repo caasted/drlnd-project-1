@@ -1,3 +1,7 @@
+[//]: # (Image References)
+
+[image1]: https://github.com/caasted/drlnd-project-1/blob/master/rewards_plot.png "Rewards Plot"
+
 # Report for Udacity DRLND Project 1 - Navigation
 
 ## Learning Algorithm
@@ -35,7 +39,7 @@ To solve this project I utilized the Deep Q-Network from the OpenAI Gym's LunarL
 
 ## Plot of Rewards
 
-**Insert plot figure**
+![Rewards Plot][image1]
 
 On the first try (plot above), the agent solved this environment in **318 episodes**. Out of curiosity, I reran the training process two more times, which were solved in 353 and 774 episodes. So while 318 was a lucky first run, the agent does train quickly consistently.
 
